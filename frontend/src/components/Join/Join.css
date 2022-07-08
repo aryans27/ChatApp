@@ -1,0 +1,65 @@
+/* font-family: 'Albert Sans', sans-serif;
+font-family: 'Edu SA Beginner', cursive;
+font-family: 'Roboto', sans-serif; */
+.JoinPage {
+    background-color: rgb(17, 17, 17);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.JoinContainer {
+    border: 2px solid grey;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    /* for column center-> align-items, for row center->justify-content */
+    align-items: center;
+}
+
+.JoinContainer>img {
+    width: 10vmax;
+}
+
+.JoinContainer>h1 {
+    color: white;
+    font-size: 2.5vmax;
+    width: 25vmax;
+    border-bottom: 0.2vmax solid white;
+    text-align: center;
+    padding: 1vmax;
+    font-family: 'Albert Sans', sans-serif;
+}
+
+#joinInput {
+    width: 25vmax;
+    margin: 2vmax;
+    padding: 1vmax;
+    border: none;
+    outline: none;
+    font-size: 1.2vmax;
+    box-sizing: border-box;
+}
+
+.joinBtn {
+    width: 25vmax;
+    margin: 0 0 1.5vmax 0;
+    padding: 1vmax;
+    border: none;
+    outline: none;
+    font-size: 1.2vmax;
+    font-family: 'Roboto';
+    outline: none;
+    font-size: 1.2vmax;
+    background-color: rgb(134, 73, 204);
+    box-sizing: border-box;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.joinBtn:hover {
+    background-color: rgb(95, 42, 155);
+
+}
